@@ -13,7 +13,6 @@ import Faker (generateWithSettings, defaultFakerSettings, setRandomGen)
 import Faker.Name (firstName, lastName)
 import Types
 import User (User, createUser, simulateSocialNetworkUser)
-import Messages
 import Web (startWebServer)
 
 -- | Creates a list of unique users.
